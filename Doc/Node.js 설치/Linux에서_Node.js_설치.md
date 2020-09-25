@@ -1,13 +1,13 @@
-# Linux 환경에서 Node.js 설치
+# Linux에서 Node.js 설치
 ## 설치하기
 nodejs 설치 방법은 여러가지 있으며 nodesource로 설치하는 것을 권장함
 
-** curl 설치 (command line 용 data transfer tool) **
+**curl 설치 (command line 용 data transfer tool)**
 ```
 apt-get install curl
 ```
 
-** node 설치 **
+**node 설치**
 
 ```
 # Using Ubuntu
