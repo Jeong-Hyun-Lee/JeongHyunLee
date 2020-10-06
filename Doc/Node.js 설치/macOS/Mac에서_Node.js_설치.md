@@ -108,7 +108,7 @@ launchctl 를 사용하여 macOS의 서비스로 환경변수를 등록
 $ sudo launchctl config user path $PATH # 이 후 재부팅 필요
 $ reboot
 ```
-[GUI 프로그램이 환경변수를 찾지 못할 경우 - macOS]()
+[GUI 프로그램이 환경변수를 찾지 못할 경우 - macOS](./GUI프로그램이_환경변수를_찾지못하는_경우.md)
 
 ## 참고문서
 [homebrew로 nodejs 설치](http://hochulshin.com/node-install-osx/)
