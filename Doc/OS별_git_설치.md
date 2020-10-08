@@ -1,8 +1,7 @@
 # OS별 git 설치하기
 
 ## Windows
-아래 url에서 .exe파일을 받아 설치
-
+아래 url에서 .exe파일을 받아 설치   
 https://git-scm.com/download/win
 
 ## macOS
@@ -22,6 +21,5 @@ https://git-scm.com/download/mac
 ```
 $ apt-get install git
 ```
-Debian 또는 Ubuntu가 아닌 경우 아래를 참고
-
+Debian 또는 Ubuntu가 아닌 경우 아래를 참고   
 https://git-scm.com/download/linux

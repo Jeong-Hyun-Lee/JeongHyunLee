@@ -1,15 +1,12 @@
 # Mac에서_Node.js_설치
 Mac에서 Node.js를 설치하는 방법은 대표적으로 3가지가 있다.
-
 - 공식사이트에서 배포하는 .pkg파일을 통하여 설치
 - nvm으로 설치
 - homebrew (권장)
 
 ## 공식사이트에서 다운받아 설치 
 1. https://nodejs.org 에서 .pkg파일을 받아 설치
-
 2. /usr/local/bin에 node 와 npm 바이너리가 각각 복사되고 환경변수에 추가됨
-
  - 이 방법으로 설치하면 npm install 마다 sudo 권한이 항상 필요
 
 ## nvm 으로 설치 시도
@@ -40,10 +37,8 @@ $ nvm use default
 ```
 
 ## Homebrew로 설치
-Homebrew란 Mac OS의 패키지 관리자이다.
-
-Homebrew도 brew install node로 바로 설치하면 글로벌 설치 시 sudo 권한이 필요하기 때문에 아래와 같이 npm과 node를 따로 설치해야한다.
-
+Homebrew란 Mac OS의 패키지 관리자이다.   
+Homebrew도 brew install node로 바로 설치하면 글로벌 설치 시 sudo 권한이 필요하기 때문에 아래와 같이 npm과 node를 따로 설치해야한다.   
 (현재 Node.js와 npm을 따로 설치하는 옵션이 사라져 불가능)
 
 1. Homebrew 설치
@@ -61,10 +56,9 @@ $ brew search node
 $ brew install node@8
 ```
 
-homebrew는 구버전에 대해서는 지원을 잘 하지않아 메이저버전의 최신버전들만 지원함 (작성일자를 기준으로 node@8은 삭제되어 동작하지않음)
-
-만약 node@8이하의 버전을 homebrew를 통하여 설치하려는 경우 아래 링크를 참조
-
+homebrew는 구버전에 대해서는 지원을 잘 하지않아 메이저버전의 최신버전들만 지원함   
+(작성일자를 기준으로 node@8은 삭제되어 동작하지않음)   
+만약 node@8이하의 버전을 homebrew를 통하여 설치하려는 경우 아래 링크를 참조   
 [Mac에서 Node.js 다운그레이드](./Mac에서_Node.js_다운그레이드.md)
 
 3. .npmrc 생성
@@ -111,10 +105,7 @@ $ reboot
 [GUI 프로그램이 환경변수를 찾지 못할 경우 - macOS](./GUI프로그램이_환경변수를_찾지못하는_경우.md)
 
 ## 참고문서
-[homebrew로 nodejs 설치](http://hochulshin.com/node-install-osx/)
-
-[nodejs 삭제](https://gomugom.github.io/how-to-remove-node-from-macos/)
-
-[homebrew 삭제](http://sinius.net/2015/01/01/how-to-uninstall-homebrew/)
-
+[homebrew로 nodejs 설치](http://hochulshin.com/node-install-osx/)   
+[nodejs 삭제](https://gomugom.github.io/how-to-remove-node-from-macos/)   
+[homebrew 삭제](http://sinius.net/2015/01/01/how-to-uninstall-homebrew/)   
 [nvm 설치](http://junsikshim.github.io/2016/01/29/Mac%EC%97%90%EC%84%9C-Node.js-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0.html)

@@ -8,4 +8,4 @@
 ![Visitor Count](https://profile-counter.glitch.me/Jeong-Hyun-Lee/count.svg)
 
 ![JeongHyun's github stats](https://github-readme-stats.vercel.app/api?username=Jeong-Hyun-Lee&count_private=true&show_icons=true&theme=radical)
-![JeongHyun's Top language](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=Jeong-Hyun-Lee&layout=compact&theme=radical&count_private=true)
+<!-- ![JeongHyun's Top language](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=Jeong-Hyun-Lee&layout=compact&theme=radical&count_private=true) -->
