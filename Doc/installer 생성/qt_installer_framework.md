@@ -59,7 +59,7 @@ https://doc.qt.io/qtinstallerframework/ifw-globalconfig.html
 ## package.xml
 설치파일로 제공하려는 패키지의 정보를 명시한다.   
 설정값은 아래에서 참고한다.   
-https://doc.qt.io/qtinstallerframework/ifw-component-description.html
+[Package Directory](https://doc.qt.io/qtinstallerframework/ifw-component-description.html)
 
 ## Scripting
 [Controller Scripting](http://doc.qt.io/qtinstallerframework/noninteractive.html)   
@@ -75,4 +75,4 @@ https://doc.qt.io/qtinstallerframework/ifw-component-description.html
 
 ## 참고 문서
 
-http://tvaira.free.fr/dev/methodologie/deploiement_qtinstaller
+[QT Installer Guide](http://tvaira.free.fr/dev/methodologie/deploiement_qtinstaller)
