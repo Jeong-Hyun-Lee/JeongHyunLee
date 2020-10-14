@@ -4,7 +4,6 @@
 1. USB 토큰 연결
 2. 토큰 연결시 아래와 같이 SafeNet Authentication Client Tools에 토큰이 보여진다.
 ![토큰 연결되지 않음](./images/global-sign-tool1.png)
-![토큰 연결](./images/global-sign-tool2.png)
 
 3. 인증서의 서명 알고리즘이 sha256라면 sha256으로 signing 한다.
 ```
@@ -21,8 +20,8 @@ $ signtool sign /a /s MY /n "인증서 게시자 명" /as /fd sha256 /tr http://
 
 ## Innosetup 패키징 시 signtool 사용
 1. Inno Script Studio 에서 signtool 사용
-- Inno Script Studio > Tools > Configure Sign Tools... 를 클릭
-![](./images/innosetup-signtool1.png)
+- Inno Script Studio > Tools > Configure Sign Tools... 를 클릭  
+![](./images/innosetup-signtool1.png)  
 - Add를 누르면 아래와 같이 나온다.  
 ![](./images/innosetup-signtool2.png)
 
