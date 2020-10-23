@@ -130,7 +130,7 @@ release 스크립트 실행 결과로는 다음과 같다.
 > 커밋 메세지의 header type중 feat 가 있을 경우 package.json의 MINOR 버전이 올라간다.  
 > header의 type에 관계없이 BREAKING CHANGE 항목이 있다면  package.json의 MAJOR 버전이 올라간다.
 
-## 참고문서
+## 참고 문서
 [Semver (semantic versioning)](https://semver.org/#summary)  
 [쿡앱스 기술블로그](https://blog.cookapps.io/guide/conventional-commits/#%EA%B0%9C%EC%9A%94)  
 [husky 모듈 없이 commitlint 사용하기](https://dzone.com/articles/using-conventional-commit-in-project)  
