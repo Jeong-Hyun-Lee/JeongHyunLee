@@ -11,7 +11,7 @@ $ signtool sign /a /s MY /n "인증서 게시자 명" /as /fd sha256 /tr http://
 # ex) signtool sign /a /s MY /n "Incorporation" /as /fd sha256 /tr http://timestamp.globalsign.com/?signature=sha2 /td SHA256 C:\Users\krinjosl\Desktop\Test_v0.0.1.exe
 ```
 
-4. signtool.exe는 C:\Program Files (x86)\Windows Kits\8.1\bin\x64에 있으며 없다면 PDF파일(*GlobalSign-Install CodeSign_ver1.8.pdf*) 참고하여 설치
+4. signtool.exe는 C:\Program Files (x86)\Windows Kits\8.1\bin\x64에 있으며 없다면 PDF파일(*GlobalSign-Install CodeSign_ver1.8.pdf*) 참고하여 설치  
 ![signtool 실행](./images/execute-sign-tool.png)
 ![암호 입력](./images/enter-password-sign-tool.png)
 
